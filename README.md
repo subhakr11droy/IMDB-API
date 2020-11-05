@@ -7,7 +7,7 @@ Following are the requirements:
 * Django 3.2
 * Also refer to requirements.txt
 
-#Installation
+# Installation
 1. clone desired directory with git clone https://github.com/divinedeveloper/imdb-task.git
 2. Create virtual environment
 3. pip3 install -r requirements.txt
@@ -20,7 +20,7 @@ Following are the requirements:
 7. Run the server
     *python3 manage.py runserver
 
-#Functionalities
+# Functionalities
 
 | Title | API Endpoints |
 | --- | --- |
@@ -33,7 +33,7 @@ Following are the requirements:
 | Search with multi-field | /api/movies?search={movie-name},{director-name},{genre-name},... |
 | Search with Pagination | /api/movies?search=<movie-name>&limit=<#> |
 
-#How to scale the application?
+# How to scale the application?
 Since, it completely depends on the scenario and requirements and a lot of factors are to be considered before coming up with an approach
 
 Following can be done to scale the application, looking at the current requirements
