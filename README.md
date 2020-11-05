@@ -24,6 +24,7 @@ Following are the requirements:
 
 | Title | API Endpoints | Links |
 | --- | --- | --- |
+| API Overview | /api/ | https://imdbmovieapi.herokuapp.com/api/ |
 | View all Movies | /api/movies/ | https://imdbmovieapi.herokuapp.com/api/movies |
 | View All Genres | /api/genres/ | https://imdbmovieapi.herokuapp.com/api/genres/ |
 | Single movie detail | /api/movie/{id} | https://imdbmovieapi.herokuapp.com/api/movie/1 |
