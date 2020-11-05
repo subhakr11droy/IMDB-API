@@ -37,3 +37,26 @@ Following are the requirements:
 Since, it completely depends on the scenario and requirements and a lot of factors are to be considered before coming up with an approach
 
 Following can be done to scale the application, looking at the current requirements
+
+* Infrastructure scaling
+    1. Since the API plays a very crucial role in data retrival of data, so api can be split up into different microservices
+    3. Use of asynchronous server
+    4. More application servers to serve requests in round-robin manner
+    2. We can follow load balancing
+    5. Use of consistent hashing for cashing servers
+
+* Database scaling
+    1. In case of 15 million API requests/day our database is more READ intensive, hence we can go for a non-relational db like NOSQL
+    2. Any non-relational db like MongoDb offers high consistency and partition tolerance hence latency is low
+    3. Profiling our queries
+    4. Persistent connection on databases
+    5. Searching for correct search key and indexing all the queries
+    6. Analyzing the frequent queries and caching the queries
+    7. Horizontal scaling of our databases
+
+* Scaling the application and data transfer 
+    1. We can completely avoid the unused middlewares and other non necessary apps in django
+    2. Use of GraphQL
+        * On of the major advantages of GraphQL over REST is clients have the ability to dictate exactly what they need from the server, and receive that data in a predictable way.
+        * Rest on the other hand returns a complete object for each query
+        * This helps in minimizing load on data transfer
