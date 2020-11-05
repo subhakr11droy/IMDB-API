@@ -1,10 +1,10 @@
 # IMDB-API
-A RESTful API service created for movies (something similar to IMDB)
+A RESTful API service created for extracting movies data (something similar to IMDB)
 
 # Requirements
 Following are the requirements:
 * Python version >= 3.8
-* Django 3.2
+* Django 3.1.2
 * Also refer to requirements.txt
 
 # Installation
@@ -22,16 +22,16 @@ Following are the requirements:
 
 # Functionalities
 
-| Title | API Endpoints |
-| --- | --- |
-| View all Movies | /api/movies/ |
-| View All Genres | /api/genres/ |
-| Single movie detail | /api/movie/{id} |
-| Search by movie | /api/movies?search={movie-name} |
-| Search by genre | /api/movies?search={genre-name} |
-| Search by field | /api/movies?search={director-name} |
-| Search with multi-field | /api/movies?search={movie-name},{director-name},{genre-name},... |
-| Search with Pagination | /api/movies?search=<movie-name>&limit=<#> |
+| Title | API Endpoints | Links |
+| --- | --- | --- |
+| View all Movies | /api/movies/ | https://imdbmovieapi.herokuapp.com/api/movies |
+| View All Genres | /api/genres/ | https://imdbmovieapi.herokuapp.com/api/genres/ |
+| Single movie detail | /api/movie/{id} | https://imdbmovieapi.herokuapp.com/api/movie/1 |
+| Search by movie | /api/movies?search={movie-name} | https://imdbmovieapi.herokuapp.com/api/movies/?search=Star%20Wars |
+| Search by genre | /api/movies?search={genre-name} | https://imdbmovieapi.herokuapp.com/api/movies/?search=Action |
+| Search by field | /api/movies?search={director-name} | https://imdbmovieapi.herokuapp.com/api/movies/?search=Steven%20Spielberg |
+| Search with multi-field | /api/movies?search={movie-name},{director-name},{genre-name},... | https://imdbmovieapi.herokuapp.com/api/movies/?search=star,action |
+| Search with Pagination | /api/movies?search=<movie-name>&limit=<#> | https://imdbmovieapi.herokuapp.com/api/movies/?search=star&limit=1
 
 # How to scale the application?
 Since, it completely depends on the scenario and requirements and a lot of factors are to be considered before coming up with an approach
