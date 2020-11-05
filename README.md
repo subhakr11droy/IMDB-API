@@ -39,7 +39,7 @@ Since, it completely depends on the scenario and requirements and a lot of facto
 Following can be done to scale the application, looking at the current requirements
 
 * Infrastructure scaling
-    1. Since the API plays a very crucial role in data retrival of data, so api can be split up into different microservices
+    1. Since the API plays a very crucial role in data retrieval of data, so api can be split up into different microservices
     3. Use of asynchronous server
     4. More application servers to serve requests in round-robin manner
     2. We can follow load balancing
@@ -57,6 +57,6 @@ Following can be done to scale the application, looking at the current requireme
 * Scaling the application and data transfer 
     1. We can completely avoid the unused middlewares and other non necessary apps in django
     2. Use of GraphQL
-        * On of the major advantages of GraphQL over REST is clients have the ability to dictate exactly what they need from the server, and receive that data in a predictable way.
+        * One of the major advantages of GraphQL over REST is clients have the ability to dictate exactly what they need from the server, and receive that data in a predictable way.
         * Rest on the other hand returns a complete object for each query
         * This helps in minimizing load on data transfer
