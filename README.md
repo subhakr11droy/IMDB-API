@@ -8,7 +8,7 @@ Following are the requirements:
 * Also refer to requirements.txt
 
 # Installation
-1. clone desired directory with git clone https://github.com/subhakr11droy/IMDB-API.git
+1. Clone in directory with git clone https://github.com/subhakr11droy/IMDB-API.git
 2. Create virtual environment
 3. pip3 install -r requirements.txt
 4. Navigate to folder
